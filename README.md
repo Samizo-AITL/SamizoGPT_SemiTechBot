@@ -77,3 +77,20 @@ This project is licensed under the MIT License.
 | `semi_failure_analysis.md` | 信頼性試験や不良解析に特化し、工程・構造・原因・対策を丁寧に解説 | Specialized in reliability and failure analysis, with engineering-focused responses |
 
 ---
+
+## 👤 執筆者情報 / Author
+
+**三溝 真一（Shinichi Samizo）**  
+- 信州大学大学院電気電子工学修士課程修了
+- 元 セイコーエプソン株式会社 技術者（1997年〜）  
+
+**経験領域**：
+- 半導体デバイス開発・製品化（ロジック・メモリ・高耐圧混載）
+- 薄膜ピエゾアクチュエータ開発
+- PrecisionCoreプリントヘッド製品化
+
+📫 [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
+📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+
+---
+
