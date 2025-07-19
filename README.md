@@ -1,7 +1,10 @@
 # SamizoGPT - 半導体技術Bot | Semiconductor Tech Bot
 
-ChatGPT APIを活用した、半導体技術支援用のチャットボット構築テンプレートです。  
-This is a template for building a semiconductor technical support chatbot using the ChatGPT API.
+半導体エンジニアや学生のための、技術質問対応チャットボットの構築テンプレートです。  
+設計・プロセス・テスト・不良解析など、開発現場での技術的な質問に ChatGPT API を活用して対話形式で回答します。
+
+This is a customizable chatbot template designed to assist semiconductor engineers and students.  
+It uses the ChatGPT API to provide interactive answers to technical questions in areas such as device design, fabrication process, testing, and failure analysis.
 
 ---
 
