@@ -85,3 +85,4 @@ The following prompt templates are included in this project:
 📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
+
