@@ -3,6 +3,8 @@
 A customizable chatbot template for semiconductor engineers and students.  
 This bot uses the ChatGPT API to provide interactive answers to technical questions related to device design, fabrication process, testing, and failure analysis.
 
+🏠 [日本語版はこちら](./README.md) — 日本語のREADMEはこちら
+
 ---
 
 ## 📁 Folder Structure
