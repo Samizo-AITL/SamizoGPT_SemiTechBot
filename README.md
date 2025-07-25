@@ -65,13 +65,6 @@ curl -X POST http://127.0.0.1:5000/chat \
 
 ---
 
-## 📄 ライセンス | License
-
-このプロジェクトは MITライセンス です。  
-This project is licensed under the MIT License.
-
----
-
 ## 📄 ボットテンプレート一覧 | Bot Templates
 
 以下はこのプロジェクトに含まれるチャットボットテンプレートです：
@@ -107,5 +100,12 @@ This project is licensed under the MIT License.
 - ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
 - 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
 - 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+
+---
+
+## 📄 ライセンス | License
+
+このプロジェクトは MITライセンス です。  
+This project is licensed under the MIT License.
 
 ---
