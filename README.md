@@ -6,6 +6,17 @@
 This is a customizable chatbot template designed to assist semiconductor engineers and students.  
 It uses the ChatGPT API to provide interactive answers to technical questions in areas such as device design, fabrication process, testing, and failure analysis.
 
+> ⚠️ **注意 / Note:**  
+> 本プロジェクトは、ChatGPT API とプロンプトテンプレートを使った **チャットボット構築の雛形**です。  
+> 現在は「API呼び出し＋プロンプト応答」の最小構成であり、以下のような **本格的なBotアプリ機能は整備中**です：
+> 
+> - セッション管理、対話履歴保存  
+> - GUIチャット画面（Streamlitなど）  
+> - テンプレートの動的切り替え  
+> - 教材連携（Edusemiなど）
+>
+> 現時点では「プロンプト駆動型の技術Botテンプレート集」としてお使いください。
+
 🌐 [English Version](./README_en.md) — Click here for the English version
 
 ---
