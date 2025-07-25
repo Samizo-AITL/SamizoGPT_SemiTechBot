@@ -14,15 +14,18 @@ It uses the ChatGPT API to provide interactive answers to technical questions in
 
 ```
 SamizoGPT_SemiTechBot/
-├── SamizoGPT-v1x/              # プロンプトテンプレート | Prompt templates
-│   └── prompt_templates/
-│       └── semi_tech_support.md
-├── api-scripts/                # Flask アプリ | Flask app for API
+├── docs/
+├── prompt_templates/
+│   └── semi_tech_support.md
+│   └── semi_failure_analysis.md
+├── samples/
+│   └── faq_failure_analysis.md
+├── api-scripts/
 │   └── flask_semi_bot.py
-├── config/                     # 設定ファイル（APIキーは除外推奨） | Config (exclude API key)
+├── config/
 │   └── semi_settings.yaml
-├── .gitignore                  # APIキーなどを除外 | Ignore sensitive files
-└── README.md                   # 本ファイル | This file
+├── .gitignore
+└── README.md
 ```
 
 ---
@@ -80,10 +83,9 @@ curl -X POST http://127.0.0.1:5000/chat \
 
 不良解析Botの実際の応答例を以下にまとめています。教育や動作確認に活用できます：
 
-📄 [`samples/faq_failure_analysis.md`](./samples/faq_failure_analysis.md)
+📄 [`faq_failure_analysis.md`](./samples/faq_failure_analysis.md)
 
 ---
-
 
 ## 👤 執筆者情報 / Author
 
@@ -93,7 +95,7 @@ curl -X POST http://127.0.0.1:5000/chat \
 
 📌 **経験領域**：  
 - 半導体デバイス（ロジック／メモリ／高耐圧混載）  
-- 薄膜ピエゾアクチュエータ
+- 薄膜ピエゾアクチュエータ  
 - PrecisionCoreプリントヘッド製品化
 
 📬 **連絡先**
