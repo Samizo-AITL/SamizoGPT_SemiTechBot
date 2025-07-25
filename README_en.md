@@ -1,8 +1,19 @@
-
 # SamizoGPT - Semiconductor Tech Bot
 
 A customizable chatbot template for semiconductor engineers and students.  
 It uses the ChatGPT API to provide interactive answers to technical questions in device design, fabrication processes, testing, and failure analysis.
+
+> ⚠️ **Note:**  
+> This project is a **prompt-driven chatbot template kit** built on top of the ChatGPT API.  
+> It currently provides a minimal setup using Flask and markdown-based prompts.  
+> The following features are under development and **not yet implemented**:
+>
+> - User session management and chat history  
+> - GUI chat interface (e.g., Streamlit)  
+> - Dynamic prompt switching  
+> - Integration with educational platforms (e.g., Edusemi)
+>
+> Please treat this as a technical prompt toolkit, not a complete chatbot application.
 
 🌐 [日本語版はこちら](./README.md) — Click here for the Japanese version
 
