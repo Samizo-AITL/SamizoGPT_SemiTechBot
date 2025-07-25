@@ -71,8 +71,8 @@ curl -X POST http://127.0.0.1:5000/chat \
 
 | ファイル名 | 説明 | 説明（EN） |
 |------------|------|-------------|
-| [`semi_tech_support.md`](../SamizoGPT-v1x/prompt_templates/semi_tech_support.md) | 半導体の設計・プロセス・テスト・信頼性に関する質問に幅広く対応 | General support for semiconductor design, process, test, and reliability |
-| [`semi_failure_analysis.md`](../SamizoGPT-v1x/prompt_templates/semi_failure_analysis.md) | 信頼性試験や不良解析に特化し、工程・構造・原因・対策を丁寧に解説 | Specialized in reliability and failure analysis, with engineering-focused responses |
+| [`semi_tech_support.md`](./prompt_templates/semi_tech_support.md) | 半導体の設計・プロセス・テスト・信頼性に関する質問に幅広く対応 | General support for semiconductor design, process, test, and reliability |
+| [`semi_failure_analysis.md`](./prompt_templates/semi_failure_analysis.md) | 信頼性試験や不良解析に特化し、工程・構造・原因・対策を丁寧に解説 | Specialized in reliability and failure analysis, with engineering-focused responses |
 
 ---
 
