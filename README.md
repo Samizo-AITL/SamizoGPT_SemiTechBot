@@ -83,6 +83,15 @@ This project is licensed under the MIT License.
 
 ---
 
+## 📘 FAQ応答例（Botの使用例） | Example Bot Answers
+
+不良解析Botの実際の応答例を以下にまとめています。教育や動作確認に活用できます：
+
+📄 [`samples/faq_failure_analysis.md`](./samples/faq_failure_analysis.md)
+
+---
+
+
 ## 👤 執筆者情報 / Author
 
 **三溝 真一（Shinichi Samizo）**  
