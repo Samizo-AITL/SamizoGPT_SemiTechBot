@@ -1,3 +1,10 @@
+---
+layout: default
+title: SamizoGPT/README.md 
+---
+
+---
+
 # 🧠 **SamizoGPT - 半導体技術Bot | Semiconductor Tech Bot**
 
 [![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
