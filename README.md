@@ -1,5 +1,7 @@
 # 🧠 **SamizoGPT - 半導体技術Bot | Semiconductor Tech Bot**
 
+[![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **半導体エンジニアや学生**のための、**技術質問対応チャットボット**の構築テンプレートです。  
 **設計・プロセス・テスト・不良解析**など、開発現場での技術的な質問に **ChatGPT API** を活用して**対話形式で回答**します。
 
