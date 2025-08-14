@@ -97,8 +97,8 @@ This project includes the following **prompt templates** for chatbot responses:
 
 | **File Name** | **Description (JP)** | **Description (EN)** |
 |---------------|----------------------|-----------------------|
-| [`semi_tech_support.md`](./prompt_templates/semi_tech_support.md) | 半導体の**設計・プロセス・テスト・信頼性**に関する質問に幅広く対応 | General support for **semiconductor design**, **process**, **test**, and **reliability** |
-| [`semi_failure_analysis.md`](./prompt_templates/semi_failure_analysis.md) | **信頼性試験や不良解析**に特化し、**工程・構造・原因・対策**を丁寧に解説 | Specialized in **reliability and failure analysis**, with engineering-focused responses |
+| [`semi_tech_support.md`](../prompt_templates/semi_tech_support.md) | 半導体の**設計・プロセス・テスト・信頼性**に関する質問に幅広く対応 | General support for **semiconductor design**, **process**, **test**, and **reliability** |
+| [`semi_failure_analysis.md`](../prompt_templates/semi_failure_analysis.md) | **信頼性試験や不良解析**に特化し、**工程・構造・原因・対策**を丁寧に解説 | Specialized in **reliability and failure analysis**, with engineering-focused responses |
 
 ---
 
