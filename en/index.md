@@ -1,3 +1,10 @@
+---
+layout: default
+title: SamizoGPT/en/index.md 
+---
+
+---
+
 # 🧠 **SamizoGPT – Semiconductor Tech Bot**
 
 [![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
