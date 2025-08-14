@@ -1,5 +1,7 @@
 # 🧠 **SamizoGPT – Semiconductor Tech Bot**
 
+[![Back to Samizo-AITL Portal](https://img.shields.io/badge/Back%20to%20Samizo--AITL%20Portal-brightgreen)](https://samizo-aitl.github.io/en/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](../LICENSE)
+
 A **customizable chatbot template** for **semiconductor engineers and students**.  
 It uses the **ChatGPT API** to provide interactive answers to technical questions in **device design**, **fabrication processes**, **testing**, and **failure analysis**.
 
