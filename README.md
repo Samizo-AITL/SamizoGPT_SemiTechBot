@@ -1,6 +1,8 @@
 ---
 layout: default
-title: SamizoGPT/README.md 
+title: SamizoGPT – SemiTech Bot
+# math: katex   # 必要ページだけ
+# mermaid: true  # フローチャート図など出すとき
 ---
 
 ---
