@@ -1,0 +1,10 @@
+title: SamizoGPT_SemiTechBot
+description: Semiconductor Tech Bot (Flask + ChatGPT)
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: null
+
+# 必要な場合のみ特有CSSを追加
+# extra_css:
+#   - /assets/css/semitech.css
