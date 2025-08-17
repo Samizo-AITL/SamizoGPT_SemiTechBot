@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ page.title | default: site.title }}</title>
+
+<!-- ベースCSS -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<!-- 追加CSS（_config.yml の extra_css に列挙した分だけ読み込み） -->
+{% if site.extra_css %}{% for css in site.extra_css %}
+<link rel="stylesheet" href="{{ css | relative_url }}">
+{% endfor %}{% endif %}
+
+<!-- 数式や図が必要なページだけ front matter でON -->
+{%- if page.math == 'katex' -%}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+ onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+{%- elsif page.math == 'mathjax' -%}
+<script>window.MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']]}};</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{%- endif -%}
+{%- if page.mermaid == true -%}
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"
+        onload="mermaid.initialize({startOnLoad:true});"></script>
+{%- endif -%}
+</head><body><main class="page">{{ content }}</main></body></html>
