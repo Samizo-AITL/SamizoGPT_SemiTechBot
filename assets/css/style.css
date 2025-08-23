@@ -1,16 +1,17 @@
-/* ===== Reset / Layout (余白最小＆テーマ要素OFF) ===== */
+/* ===== Reset / Layout ===== */
 html,body{margin:0;padding:0}
 .site-header,.site-footer,.page-header,.page-footer{display:none!important}
 .page-content{padding:0!important;margin:0!important}
 
-/* ===== Base body ===== */
+/* ===== Base (fallback: theme未使用時) ===== */
 main.page{
   max-width:1200px;
   margin:0 auto;
   padding:12px 16px;
   line-height:1.7;
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",
-              "Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;
+              "Hiragino Sans","Noto Sans JP","Hiragino Sans",
+              "Yu Gothic","Meiryo",sans-serif;
   word-wrap:anywhere;
   color:#222;
   background:#fff;
@@ -25,7 +26,7 @@ a{color:#0366d6;text-decoration:none}
 a:hover{text-decoration:underline}
 a:focus-visible{outline:2px solid rgba(3,102,214,.35);outline-offset:2px}
 
-/* Blockquote（控えめな強調） */
+/* Blockquote (fallback) */
 blockquote{
   margin:.8em 0;
   padding:.6em .9em;
@@ -34,42 +35,49 @@ blockquote{
   color:#333;
 }
 
-/* ===== Tables: 罫線を必ず表示（GitHub風） ===== */
+/* ===== Tables (fallback) ===== */
 table{border-collapse:collapse;width:100%;margin:.8em 0}
 th,td{border:1px solid #999;padding:6px 8px;vertical-align:top}
 th{background:#f5f5f5;font-weight:600;text-align:left}
 
-/* 横スクロール（小画面で崩れ防止） */
+/* 横スクロール対応 */
 .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .table-wrap > table{min-width:640px}
 
-/* Code / Pre / Images */
+/* Media / Code */
 img{max-width:100%;height:auto;display:block}
-pre{overflow:auto;padding:10px;background:#fafafa;border:1px solid #eee;border-radius:4px;margin:.7em 0}
+pre{
+  overflow:auto;
+  padding:10px;
+  background:#fafafa;
+  border:1px solid #eee;
+  border-radius:4px;
+  margin:.7em 0;
+}
 code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 pre code{background:transparent;padding:0}
 
-/* Mermaid（中央寄せ・幅ガード） */
+/* Mermaid */
 .mermaid{display:block;margin:1.2em auto;max-width:100%;overflow:auto;text-align:center}
 
-/* Mobile tweaks */
+/* Mobile */
 @media (max-width:640px){
   main.page{padding:10px 12px}
   h1{font-size:1.6rem}
   h2{font-size:1.35rem}
   h3{font-size:1.15rem}
+  .table-wrap > table{min-width:100%}
 }
 
 /* =========================================================
-   Portal unified look（theme-sepia）
-   body に class="theme-sepia" が付いている時だけ適用
+   Portal unified look (theme-sepia)
    ========================================================= */
 body.theme-sepia main.page{
   background:#fdf6e3;
   color:#3b2f2f;
 }
 
-/* 見出し：濃い青、H1左寄せ */
+/* 見出し */
 body.theme-sepia h1,
 body.theme-sepia h2,
 body.theme-sepia h3{
@@ -79,7 +87,7 @@ body.theme-sepia h3{
 }
 body.theme-sepia h1{font-size:2rem;text-align:left;margin-bottom:.8em}
 
-/* リンク：太字＋下線（少し小さめ） */
+/* Links */
 body.theme-sepia a{
   color:#0066cc;
   font-weight:600;
@@ -87,8 +95,9 @@ body.theme-sepia a{
   text-decoration:underline;
 }
 body.theme-sepia a:hover{color:#004c99}
+body.theme-sepia a:focus-visible{outline:2px solid rgba(0,102,204,.35);outline-offset:2px}
 
-/* 表：薄茶ヘッダー＋実用罫線＋ストライプ */
+/* Tables */
 body.theme-sepia table{border:2px solid #999}
 body.theme-sepia th{
   background:#e9ddc9;
@@ -102,28 +111,34 @@ body.theme-sepia td{
   color:#2b2b2b;
   padding:.8em 1em;
 }
-body.theme-sepia tr:nth-child(odd) td{background:#ffffff}
+body.theme-sepia tr:nth-child(odd) td{background:#fff}
 body.theme-sepia tr:nth-child(even) td{background:#f3efe6}
 
-/* 引用（セピア調） */
+/* Blockquote */
 body.theme-sepia blockquote{
   background:#fbf6eb;
   border-left:4px solid #007acc;
   color:#3a3028;
 }
 
-/* ===== Callouts (Portal style) ===== */
-.note, .tip, .warn {
-  border: 1px solid #bbb;
-  border-left: 6px solid #007acc;  /* デフォ青 */
-  background: #fbf6eb;             /* 薄ベージュ背景 */
-  padding: .9em 1em;
-  border-radius: 6px;
-  margin: 1.2em 0;
-  color: #3a3028;
-  line-height: 1.6;
+/* ===== Callouts (Portal) ===== */
+body.theme-sepia .note,
+body.theme-sepia .tip,
+body.theme-sepia .warn{
+  border:1px solid #bbb;
+  border-left:6px solid #007acc;
+  background:#fbf6eb;
+  padding:.9em 1em;
+  border-radius:6px;
+  margin:1.2em 0;
+  color:#3a3028;
+  line-height:1.6;
 }
+body.theme-sepia .tip { border-left-color:#16a34a; }
+body.theme-sepia .warn{ border-left-color:#dc2626; }
 
-/* 種類別カラー */
-.tip  { border-left-color: #16a34a; }  /* 緑 */
-.warn { border-left-color: #dc2626; }  /* 赤 */
+/* ===== Code (sepia対応) ===== */
+body.theme-sepia pre{
+  background:#f3efe6;
+  border:1px solid #bbb;
+}
