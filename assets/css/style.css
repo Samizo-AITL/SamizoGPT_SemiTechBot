@@ -111,3 +111,19 @@ body.theme-sepia blockquote{
   border-left:4px solid #007acc;
   color:#3a3028;
 }
+
+/* ===== Callouts (Portal style) ===== */
+.note, .tip, .warn {
+  border: 1px solid #bbb;
+  border-left: 6px solid #007acc;  /* デフォ青 */
+  background: #fbf6eb;             /* 薄ベージュ背景 */
+  padding: .9em 1em;
+  border-radius: 6px;
+  margin: 1.2em 0;
+  color: #3a3028;
+  line-height: 1.6;
+}
+
+/* 種類別カラー */
+.tip  { border-left-color: #16a34a; }  /* 緑 */
+.warn { border-left-color: #dc2626; }  /* 赤 */
